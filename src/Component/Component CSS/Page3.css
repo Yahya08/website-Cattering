@@ -1,0 +1,84 @@
+.slide-page3{
+    /* height: 285vh; */
+    width: 100%;
+    background-color: aliceblue;
+}
+/* Hal1 */
+.page3-1{
+    height: 100vh;
+    background-color: aqua;
+}
+.page3-1-judul{
+    text-align: center;
+}
+.h1page31{
+    color: rgb(30, 29, 29);
+}
+.page31span{
+    color: bisque;
+}
+.deskripsi-lay{
+    margin-top: 3rem;
+}
+.page31-deskripsi{
+ color: rgb(40, 40, 39);
+}
+.menu-page3{
+    height: 75vh;
+    background-color: rgb(118, 117, 117);
+    display: flex;
+}
+.gambar-page31{
+    display: flex;
+    gap: 1rem;
+
+}
+.p{
+    display: block;
+    margin-top: 1.3rem;
+    /* margin-left: rem; */
+    color: #fff;
+}
+.size-gambar{
+    /* margin-top: 2rem; */
+    margin: 1rem;
+    height: 40vh;
+    width: 37vh;
+    border: 0.3px solid #fff;
+    transition: all 0.3s;
+    object-fit: cover;
+    
+}
+.card-body{
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    right: 0;
+}
+.size-gambar:hover{
+    height: 41vh;
+    width: 39vh;
+}
+.img-p3{
+    height: 50vh;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 7px 8px 4px rgb(0, 0, 0,0.6);
+
+    
+}
+.deskripsi-3{
+    font-size: 30px;
+    text-align: center;
+}
+/* Hal2 */
+.page3-2{
+  
+    background-color: aqua;
+}
+/* Hal3 */
+.page3-3{
+    
+    background-color: aqua;
+}

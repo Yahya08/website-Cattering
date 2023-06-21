@@ -1,0 +1,138 @@
+.bodyzeen{
+    height: 130vh;
+    width: 100%;
+    margin: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(122, 140, 155);
+}
+.judul-pg{
+    height: 15vh;
+    background-color: aqua;
+}
+
+.card-makanan{
+    width: 34vh;
+    margin-top: 12vh;
+    height: 40vh;
+    border-radius: 10px;
+    background-color: aqua;
+    display: flex;
+    overflow: hidden;
+    border: 1px solid #fefefe;
+    box-shadow:  0px 2px 2px 6px #272525;
+    position: relative;
+    transition: 1s;
+
+
+}
+.card-makanan:hover .card-img{
+    /* width: 35vh; */
+    height: 45vh;
+    background-color: #272525;
+    transition: 1s;
+
+}
+.style{
+    display: flex;
+    gap: 2rem;
+    margin-left: 1.7rem;
+
+}
+.card-makanan:hover .card-text{
+    right: 0;
+   
+    
+   
+}
+.card-img{
+    height: 40vh;
+    width: 34vh;
+    object-fit: cover;
+}
+.card-text{
+    width: 34vh;
+    height: 40vh;
+    top: 0;
+    right:-34vh;
+    position: absolute;
+    background-color: #36363a9c;
+    backdrop-filter: blur(1px);
+    color: aliceblue;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+
+    
+}
+
+
+.menu-judul{
+    margin: 1rem;
+    text-transform: uppercase;
+}
+.deskripsi-judul{
+    margin: 1rem;
+    text-transform: capitalize;
+    
+}
+/* Bawah slide */
+.page5slide{
+    height: 70vh;
+    background-color: beige;
+    margin-top: 1rem;
+
+}
+.card-anim{
+    /* background: #272525; */
+    height: 60vh;
+    width: 74%;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    border-radius: 10px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    transition: 0.6s;
+}
+.cardanimimg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.cardanimimg::before{
+    content: "";
+    transition: 0.4s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    clip-path: circle(120px at center);
+
+}
+.cardanimimg:hover:before{
+    background-color: rgb(33, 37, 37);
+    clip-path: circle(600px at center);
+    border-radius: 20px;
+}
+.promo-img{
+    height: 40vh;
+
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    transition: 0.3s;
+}
+.card-anim:hover .promo-img{
+    left: 70%;
+    transition: 0.4s;
+}

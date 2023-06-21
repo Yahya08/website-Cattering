@@ -1,0 +1,101 @@
+.hal-satu{
+    width: 100%;
+	height: 165vh;
+    /* display:flex; */
+    background-color: rgb(28, 13, 68);
+    /* background: url("../../assets/Img/Makanan.jpg"); */
+
+}
+.subpage1{
+    width: 100%;
+    display: flex;
+}
+.hal-kiri{
+    background-color:#231231;
+    width:50%;
+    height:165vh;
+}
+.hal-kanan{
+    width:50%;
+    height:165vh;
+    background-color: rgb(37, 55, 71);
+}
+.pagimg{
+    height: 140vh;
+    /* width: 100%; */
+}
+li{
+    list-style: none;
+    padding: 1rem;
+    display: flex;
+    /* color: aliceblue; */
+}
+.hal-kiri h1{
+    font-size: 60px;
+    color: aquamarine;
+}
+.text-hal span{
+    color: antiquewhite;
+    font-size: 40px;
+    margin-top: 1.5rem;
+    margin-left: 2px;
+}
+
+.ling{
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.ling-kiri{
+    margin-left: 1.8rem;
+    height: 20vh;
+    width: 20vh;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.home-kolom{
+    height: 40vh;
+    width: 90%;
+    background-color: aqua;
+    margin: 2rem;
+}
+/* Kanan */
+.lingkaran{
+    background-color: rgb(75, 105, 105);
+    border-radius: 50%;
+    height: 50vh;
+    width: 50vh;
+    box-shadow: 10px 2px 3px  #ffff;
+    border: 1px solid #ffff;
+
+
+}
+
+.back{
+    height: 30vh;
+    width: 30vh;
+    margin-top: 1rem;
+    border-radius: 50%;
+    box-shadow: -10px -6px 0px  #ffff;
+    border: 1px solid #ffff;
+
+}
+.back1{
+    height: 30vh;
+    border: 1px solid #ffff;
+    width: 30vh;
+    margin-top: -14rem;
+    margin-left: 13rem;
+    border-radius: 50%;
+    box-shadow: 5px -6px 0px  #ffff;
+}
+.back2{
+    height: 30vh;
+    width: 30vh;
+    margin-top: -2.5rem;
+    margin-left: 5rem;
+    border-radius: 50%;
+    box-shadow: -5px 6px 0px  #ffff;
+    border: 1px solid #ffff;
+
+}
