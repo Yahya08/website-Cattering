@@ -1,69 +1,82 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
-nav{
-	position: relative;
-	
-	width: 100%;
-	height: 50px;
-	background: #34495e;
-	
-	font-size: 0;
-	box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+.navbar {
+  width: 100%;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto auto;
+  justify-content: end;
+  background-color: #ffffff;
 }
-nav a{
-	font-size: 15px;
-	text-transform: uppercase;
-	color: white;
-	text-decoration: none;
-	line-height: 50px;
-	position: relative;
-	z-index: 1;
-	display: inline-block;
-	text-align: center;
+
+.navbar .judul-navbar{
+	margin-right: 550px;
 }
-nav .animation{
-	position: absolute;
-	height: 100%;
-	/* height: 5px; */
-	top: 0;
-	/* bottom: 0; */
-	z-index: 0;
-	background: #1abc9c;
-	border-radius: 8px;
-	transition: all .5s ease 0s;
+nav {
+  position: relative;
+  margin-right: 20px;
+  width: 100%;
+  height: 30px;
+  background: #ffffff;
+  /* box-shadow: 0 2px 3px 0 rgba(0,0,0,.1); */
 }
-nav a:nth-child(1){
-	width: 100px;
+nav a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  /* text-transform: uppercase; */
+  color: #233000;
+  text-decoration: none;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  text-align: center;
 }
-nav .start-home, a:nth-child(1):hover~.animation{
-	width: 100px;
-	left: 0;
+nav .animation {
+  position: absolute;
+  height: 100%;
+  /* height: 5px; */
+  top: 0;
+  /* bottom: 0; */
+  z-index: 0;
+  background: #1abc9c;
+  border-radius: 8px;
+  transition: all 0.7s ease 0s;
 }
-nav a:nth-child(2){
-	width: 110px;
+nav a:nth-child(1) {
+  width: 100px;
 }
-nav a:nth-child(2):hover~.animation{
-	width: 110px;
-	left: 100px;
+nav .start-home,
+a:nth-child(1):hover ~ .animation {
+  width: 100px;
+  left: 0;
 }
-nav a:nth-child(3){
-	width: 100px;
+nav a:nth-child(2) {
+  width: 100px;
 }
-nav a:nth-child(3):hover~.animation{
-	width: 100px;
-	left: 210px;
+nav a:nth-child(2):hover ~ .animation {
+  width: 100px;
+  left: 100px;
 }
-nav a:nth-child(4){
-	width: 160px;
+nav a:nth-child(3) {
+  width: 100px;
 }
-nav a:nth-child(4):hover~.animation{
-	width: 160px;
-	left: 310px;
+nav a:nth-child(3):hover ~ .animation {
+  width: 100px;
+  left: 200px;
 }
-nav a:nth-child(5){
+nav a:nth-child(4) {
+  width: 100px;
+}
+nav a:nth-child(4):hover ~ .animation {
+  width: 100px;
+  left: 300px;
+}
+/* nav a:nth-child(5){
 	width: 120px;
 }
 nav a:nth-child(5):hover~.animation{
 	width: 120px;
 	left: 470px;
-}
+} */
