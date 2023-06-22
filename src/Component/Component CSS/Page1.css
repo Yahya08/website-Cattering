@@ -2,7 +2,7 @@
 
 .beranda {
   width: 100%;
-  height: 165vh;
+  height: 200vh;
   /* display:flex; */
   background-color: #233000;
   /* background: url("../../assets/Img/Makanan.jpg"); */
@@ -29,7 +29,7 @@ li {
 }
 
 .headline-hero {
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .headline-hero span {
@@ -49,11 +49,61 @@ li {
   display: flex;
   position: relative;
   width: 100%;
-  height: 471px;
+  height: 450px;
   left: 0px;
-  top: 200px;
+  top: 90px;
 }
 
+.ingredients {
+  gap: 2rem;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+.ingredients-1 {
+  border-radius: 50%;
+  position: relative;
+  width: 110px;
+  height: 110px;
+  border: 1px solid #ffffff;
+}
+
+.ingredients-2 {
+  border-radius: 50%;
+  position: relative;
+  width: 110px;
+  height: 110px;
+  border: 1px solid #ffffff;
+}
+
+.ingredients-3 {
+  border-radius: 50%;
+  position: relative;
+  width: 110px;
+  height: 110px;
+  border: 1px solid #ffffff;
+}
+
+.img-kiri {
+  display: flex;
+  width: 100%;
+  height: 110px;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 250px;
+  margin-left: 70px;
+}
+
+.img-kiri
+
+.img-box {
+  width: 375px;
+  height: 218px;
+  border: 1px solid #ffffff;
+}
 /* .pagimg{
     height: 140vh; */
 /* width: 100%; */
