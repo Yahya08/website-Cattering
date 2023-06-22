@@ -47,21 +47,62 @@ function Zennchi() {
       </div>
     
    <div className="page5slide">
-    <h1>judul</h1>
+    <h1 className="judulpage5slide">judul</h1>
+    <div className="sideside">
+
     <div className="card-anim">
       <div className="cardanimimg"></div>
       <div className="deskripsipromo">
-        <h1>Judull</h1>
-        <p>aku juga mau</p>
-        <a href="">Hubungi kami</a>
+        <h1 className="judul-anim">Judull</h1>
+        <p className="text-anim">aku juga mau</p>
+        <a className="text-anim" href="">Hubungi kami </a>
       </div>
       <img className="promo-img" src={Promo} alt="" />
+      
+    </div>
+
+
+    <div className="page5kanan">
+      <div className="kananfoto1">
+
+      <img className="promokanan"src={Promo} alt="" />
+        <div className="kanandeskripsi">
+          <h1 className="h1-detail">Haloo</h1>
+        </div>
+        <div className="desdeta">
+         <a className="hub-btn" href="">Hubungi Kami</a>
+          <div className="detail">
+            <h1 className="h1-detail1">Nasi lemak</h1>
+            <p className="h1-detail1">Nasilemak untuk awokawok</p>
+            <h2 className="h1-detail1">Harga <span>20K</span></h2>
+          </div>
+        </div>
+      </div>
+      <div className="kananfoto1">
+
+<img className="promokanan"src={Promo} alt="" />
+  <div className="kanandeskripsi">
+    <h1 className="h1-detail">Haloo</h1>
+  </div>
+  <div className="desdeta">
+   <a className="hub-btn" href="">Hubungi Kami</a>
+    <div className="detail">
+      <h1 className="h1-detail1">Nasi lemak</h1>
+      <p className="h1-detail1">Nasilemak untuk awokawok</p>
+      <h2 className="h1-detail1">Harga <span>20K</span></h2>
+    </div>
+  </div>
+</div>
+      
     </div>
    </div>
 
    </div>
+    </div>
+   
     </div>
   )
 }
 
 export default Zennchi
+

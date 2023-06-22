@@ -6,6 +6,7 @@ import Page1 from "../Component/Page1.jsx"
 import Page2 from "../Component/Page2.jsx"
 import Page3 from "../Component/Page3.jsx"
 import Page4 from "./Page4"
+import Reserfasi from "./Reserfasi"
 import Zennchi from "./Zennchi"
 function Home() {
   return (
@@ -20,6 +21,8 @@ function Home() {
           <Zennchi/>
         </div>
         <Footer/>
+        <Reserfasi/>
+
     </div>
   )
 }

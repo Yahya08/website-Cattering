@@ -1,4 +1,69 @@
 .footer{
-    background-color:#021201;
+    background-color:#9b9eac;
+    height: 16.5vh;
+    
+    display: flex;
     
 }
+.fot-listt{
+    display: flex;
+    gap: 13rem;
+}
+.iner-footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(20, 18, 45);
+
+}
+.jud-fot-h1{
+    color: aqua;
+    
+}
+.jud-fot-h2{
+    color: aqua;
+    margin-left: 1rem;
+}
+.span-k{
+    color: #fff;
+    font-size: 25px;
+}
+.spanwar{
+    display: flex;
+}
+.afot{
+    color: #fff;
+    /* text-decoration: none; */
+    
+    
+}
+
+.quick-links{
+    display: flex;
+}
+.quick-links .ul-foot2{
+    display: flex;
+}
+.quick-item  {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+   
+}
+.p-fot{
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    
+}
+.p-fot:hover{
+    color: aqua;
+}
+.afot:hover{
+   color: blue;
+}
+
+
+
+
+
