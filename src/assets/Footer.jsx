@@ -3,10 +3,9 @@ import "./assets CSS/Footer.css"
 function Footer() {
   return (
     <div className="footer">
-      <div className="text-footer">
-        <h1> Hai</h1>
+     <h1>jjjjjcvl</h1>
       </div>
-    </div>
+    
   )
 }
 
