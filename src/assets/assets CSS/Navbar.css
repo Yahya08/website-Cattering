@@ -7,19 +7,26 @@
   place-items: center;
   grid-template-columns: auto auto;
   justify-content: end;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
   background-color: #ffffff;
+  /* box-shadow: 0 2px 3px 0 rgba(0,0,0,.1); */
 }
 
-.navbar .judul-navbar{
-	margin-right: 550px;
+.navbar h1{
+	margin-right: 480px;
+	font-family: "Montserrat", sans-serif;
 }
+
 nav {
   position: relative;
   margin-right: 20px;
   width: 100%;
   height: 30px;
   background: #ffffff;
-  /* box-shadow: 0 2px 3px 0 rgba(0,0,0,.1); */
+
 }
 nav a {
   font-family: "Montserrat", sans-serif;
