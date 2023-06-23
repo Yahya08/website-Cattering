@@ -1,27 +1,38 @@
 .bodyzeen{
-    height: 135vh;
+    height:187vh;
     width: 100%;
     margin: 0;
     display: block;
     justify-content: center;
     align-items: center;
-    background-color: rgb(102, 121, 136);
+    background-color: #30333c;
+
+    /* background-color: rgb(40, 140, 217); */
 }
 .judul-pg{
-    height: 15vh;
-    background-color: aqua;
+    /* height: 12vh; */
+    color: #fff;
+    background-color: #30333c;
+    
+
+}
+.judulpd-h1{
+    padding: 2rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 1rem;
 }
 
 .card-makanan{
     width: 34vh;
-    margin-top: 12vh;
+    margin-top: 9vh;
     height: 40vh;
     border-radius: 10px;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     overflow: hidden;
-    border: 1px solid #fefefe;
-    box-shadow:  0px 2px 2px 6px #272525;
+    /* border: 1px solid #fefefe; */
+    /* box-shadow:  0px 2px 2px 6px #040404; */
     position: relative;
     transition: 1s;
 
@@ -30,21 +41,19 @@
 .card-makanan:hover .card-img{
     /* width: 35vh; */
     height: 45vh;
-    background-color: #272525;
+    background-color: #1a1a1a;
     transition: 1s;
 
 }
 .style{
     display: flex;
     gap: 2rem;
-    margin-left: 1.7rem;
+    margin-left: 1rem;
+    height: 72vh;
 
 }
 .card-makanan:hover .card-text{
     right: 0;
-   
-    
-   
 }
 .card-img{
     height: 40vh;
@@ -80,15 +89,12 @@
 }
 /* Bawah slide */
 .page5slide{
-    height: 80vh;
-    background: url("../../assets/Img/Makanan.jpg");
+    height: 0vh;
+    background-color: #30333c;
     margin-top: 1rem;
 
 }
-.judulpage5slide{
-    background-color: #272525;
-    height: 13vh;
-}
+
 .sideside{
     display: flex;
 }
@@ -96,7 +102,7 @@
     /* background: #272525; */
     height: 60vh;
     width: 74%;
-    margin-top: 1rem;
+    margin-top: 6rem;
     margin-left: 2rem;
     border-radius: 10px;
     position: relative;
@@ -105,6 +111,7 @@
     transition: 0.6s;
 }
 .cardanimimg{
+    margin-top: -4rem;
     position: absolute;
     top: 0;
     left: 0;
@@ -120,14 +127,25 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: aqua;
+    background-color: rgb(33, 37, 37);
     clip-path: circle(100px at center);
-
+    
 }
 .cardanimimg:hover:before{
-    background-color: rgb(33, 37, 37);
     clip-path: circle(600px at center);
+    background-color: rgb(238, 255, 0);
     border-radius: 20px;
+}
+.card-animdes{
+    padding: 1.5rem;
+}
+.card-p{
+    margin-top: 6rem;
+    font-size: 6rem;
+    color: #ffff00;
+}
+.spanp{
+    color: #fff;
 }
 .promo-img{
     height: 40vh;
@@ -138,25 +156,29 @@
     transform: translate(-50%,-50%);
     pointer-events: none;
     transition: 0.3s;
+    margin-top: -4rem;
 }
 .card-anim:hover .promo-img{
     left: 70%;
     transition: 0.4s;
 }
 .judul-anim{
-    color: #fefefe;
+    color: #000;
 }
 .deskripsipromo{
     position:relative;
     margin-left: 2rem;
+  
     transition: 0.5s;
     left: 20%;
     opacity: 0;
     visibility: hidden;
    
 }
+
 .text-anim{
-    color: #fefefe;
+    color: #000;
+
 }
 .card-anim:hover .deskripsipromo{
     left: 0;
@@ -166,7 +188,7 @@
 /* Kanan */
 .page5kanan{
     /* background-color: #ff3300; */
-    height: 40vh;
+    height: 60vh;
    
     
 }
@@ -177,12 +199,12 @@
     /* margin-left: 4rem; */
 }
 .kananfoto1{
-    margin-left: 2rem;
+    margin-left: 1rem;
     height: 23vh;
     width: 40vh;
-    margin-top: 1rem;
+    margin-top: 2rem;
     border-radius: 15px;
-    background-color: #272525;
+    background-color: #fffb00;
     background-size: cover;
     background-position: center;
     box-shadow: 4px 3px 4px 2px #000;
@@ -194,6 +216,7 @@
     position: absolute;
     left: 0;
     width: 100%;
+    
     height: 100%;
     bottom: -450px;
     border-radius: 8px;
@@ -218,7 +241,7 @@
     font-size: 15px;
     margin-left: 5rem;
     font-weight: bold;
-    color: #fefefe;
+    color: #000;
 }
 .h1-detail1{
     font-size: 15px;

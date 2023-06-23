@@ -1,75 +1,148 @@
+.loginlagi{
+  height: 100vh;
+  display: block;
+}
+.div-nav{
+  height: 10vh;
+  border-radius: 1px solid #000;
+}
 
+.fot-rese{
+  display: flex;
+  /* margin-top: 20vh; */
+}
+/* Kanan  */
+.forn-container {
+  color: rgb(255, 255, 255);
+  width: 35%;
+  height: 70vh;
+  background-color: rgb(20, 105, 180,0.7);
+  flex-direction: column;
+  /* border-radius: 10px; */
+  display: flex;
   
+  /* margin-top: 1rem; */
+  /* margin-left: 9rem; */
   
-  .loginlagi .login-kanan {
-    /* background-color: rgb(2, 11, 30); */
-    /* background: linear-gradient(#04042f,#02023c); */
-    opacity: 0.9;
-    width: 100%;
-    height: 100vh;
-    
-  }
-  .forn-container {
-    color: rgb(255, 255, 255);
-    width: 70%;
-    height: 90vh;
-    /* background-color: rgb(33, 28, 93); */
-    flex-direction: column;
-    border-radius: 10px;
-    display: flex;
-   
-    margin-left: 9rem;
-    gap: 50px;
-    padding: 30px 20px;
-    text-align: center;
-  }
-  .name {
-    display: flex;
-    justify-content: space-between;
-  }
-  .name input {
-    width: 50%;
-  }
-  input {
-    padding: 8px 14px;
-    /* border-radius: 10px; */
-    border: none;
-    outline: none;
-    margin: 1rem;
-  }
-  input[type="checkbox"] {
-    accent-color: rgba(5, 211, 183);
-    width: 15px;
-    height: 15px;
-  }
-  .trems {
-    display: flex;
-    justify-content: center;
-    gap: 6px;
-    align-items: center;
-  }
-  .trems a {
-    color: rgb(5, 211, 183);
-  }
- 
-  button {
-    padding: 8px;
-    border-radius: 8px;
-    border: none;
-    font-weight: 500;
-    background-color: rgb(5, 211, 183);
-    color: rgba(0, 0, 0, 0.699);
-    cursor: pointer;
-    font-size: 15px;
-    width: 30vh;
-    
-  }
-  button:hover {
-    background-color: rgb(3, 149, 129);
-  }
+  gap: 40px;
+  /* padding: 30px 20px; */
+  text-align: center;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+.name input {
+  width: 50%;
+}
+.forn-container input {
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin: 1rem;
+}
+.forn-container input[type="checkbox"] {
+  accent-color: rgba(5, 211, 183);
+  width: 15px;
+  height: 15px;
+}
+
+.forn-container button {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  background-color: rgb(5, 211, 183);
+  color: rgba(0, 0, 0, 0.699);
+  cursor: pointer;
+  font-size: 15px;
+  width: 30%;
+  margin-left: 36%;
+}
+.forn-container button:hover {
+  background-color: rgb(3, 149, 129);
+}
+
+.forn-container button:active {
+  background-color: rgb(45, 241, 215);
+}
+.phon{
+  width: 38%;
+}
+
+.login-kiri{
+  opacity: 0.7;
+  /* background: url("../../assets/Img/img1.jpg"); */
+  /* background: linear-gradient(#04042f,#02023c); */
+
+  /* background: linear-gradient(#030321,#040411,#030215); */
+}
+.login-kiri ul{
+margin-top: 1rem;
+margin-left: 3rem;
+  text-decoration: none;
+}
+.login-kiri li{
+  color: aquamarine;
+  list-style: none ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 65px;  
+}
+.login-kiri li span{
+ color: aliceblue;
+  font-size: 50px;
+  margin-left: -1rem;
+}
+.loginlagi .login-kiri {
+  width: 65%;
+  background-color: aqua;
   
-  button:active {
-    background-color: rgb(45, 241, 215);
-  }
+
+}
+.home1-text{
+  position: relative;
+  max-width: 600px;
+}
+.home1-txt h2{
+  margin-left: 3rem;
+  margin-top: 2rem;
+  color: rgb(51, 100, 142);
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+
+}
+.home1-txt h2 span{
+  font-size: 5.5rem;
   
- 
+}
+.home1-txt p{
+  color: rgb(0, 0, 0);
+  margin-left: 4rem;
+  line-height: 4rem;
+
+
+}
+.home1-txt a{
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 6rem;
+  padding: 8px 20px;
+  color: black;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: antiquewhite;
+  transition: 0.3s;
+}
+.home1-txt a:hover{
+  background-color: black;
+  color: aliceblue;
+}
+
+
+

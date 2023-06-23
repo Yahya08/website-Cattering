@@ -1,40 +1,46 @@
-import "./Component CSS/Reserfasi.css"
-// import { Link } from "react-router-dom"
+import "./Component CSS/Reserfasi.css";
+import Navbar from "../assets/Navbar";
+// import Cover from "../assets/Img/Card/cover.jpg"
+import Footer from "../assets/Footer";
 function Reserfasi() {
   return (
-   <div className="loginlagi">
+    <div className="loginlagi">
+        <div className="div-nav">
 
-       <div className="login-kanan">
-        <div className="login-body">
-
-        
-        <form className="forn-container">
-            
-            <h2>Make a  Reservation</h2>
-            <div className="name">
-               
-                <input type="text-login" placeholder="First Name"  required />
-                <input type="text-login" placeholder="Last Name"  required/>
-
-            </div>
-            <input type="email" placeholder="Email" required/>
-            <input type="Number Phon" placeholder="Number Phon" required/>
-            <div className="name">
-               
-               <input type="tgl" placeholder="Tanggal"  required />
-               <input type="jam" placeholder="PM/AM"  required/>
-
-           </div>
-            
-            <button className="sub-btn">Register</button>
-        </form>
+        <Navbar/>
         </div>
-       </div>
+        <div className="fot-rese">
 
-      
-   </div>
-  
-  )
+        <form className="forn-container">
+          <h2>Register</h2>
+          <div className="name">
+            <input type="text-login" placeholder="First Name" required />
+            <input type="text-login" placeholder="Last Name" required />
+          </div>
+          <input type="email" placeholder="Email" required />
+          <input className="phon" type="phon" placeholder="Number Phon" required />
+         
+          {/* <div className="trems">
+            <input type="checkbox" />I accept <a href="">Tems of Use</a>
+          </div> */}
+          <button>Register</button>
+        </form>
+      <div className="login-kiri">
+      <div className="home1-txt">
+            <h2>Kurnia Catering <span>Nih bos</span></h2>
+            <p>Dengan melayani askaakhkahsdshdjkhsdxcx
+                jhg
+            </p>
+            <a href="">Hubungi</a>
+          </div>
+      </div>
+
+        </div>
+          <Footer/>
+        
+      </div>
+    
+  );
 }
 
-export default Reserfasi
+export default Reserfasi;
