@@ -7,10 +7,10 @@
     align-items: center;
     background-color: #30333c;
 
-    /* background-color: rgb(40, 140, 217); */
+    
 }
 .judul-pg{
-    /* height: 12vh; */
+    
     color: #fff;
     background-color: #30333c;
     
@@ -28,15 +28,10 @@
     margin-top: 9vh;
     height: 40vh;
     border-radius: 10px;
-    /* background-color: aqua; */
     display: flex;
     overflow: hidden;
-    /* border: 1px solid #fefefe; */
-    /* box-shadow:  0px 2px 2px 6px #040404; */
     position: relative;
     transition: 1s;
-
-
 }
 .card-makanan:hover .card-img{
     /* width: 35vh; */
@@ -87,7 +82,7 @@
     text-transform: capitalize;
     
 }
-/* Bawah slide */
+
 .page5slide{
     height: 0vh;
     background-color: #30333c;
@@ -99,7 +94,7 @@
     display: flex;
 }
 .card-anim{
-    /* background: #272525; */
+   
     height: 60vh;
     width: 74%;
     margin-top: 6rem;
@@ -187,7 +182,7 @@
 }
 /* Kanan */
 .page5kanan{
-    /* background-color: #ff3300; */
+  
     height: 60vh;
    
     

@@ -1,7 +1,7 @@
 .subhome2{
     display: flex;
     width: 50%;
-    background-color: aqua;
+    background-color: #1a1a1a;
     height: 70vh;
     width: 100%;
 }
@@ -24,12 +24,15 @@
 }
 .imgg{
     width: 50%;
-    background-color: blueviolet;
+   
+    background-color: #1a1a1a;
+    /* border-radius: 10px; */
 }
 .img-home2{
     height: 50vh;
     margin-top: 3rem;
     margin-left: 4rem;
+  
 }
 .home2-text{
     position: relative;
@@ -67,7 +70,9 @@
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: antiquewhite;
+    background-color: #ffff00;
+  
+
     transition: 0.3s;
 }
 .home2-txt a:hover{
