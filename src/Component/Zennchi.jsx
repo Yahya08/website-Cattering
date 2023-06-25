@@ -10,20 +10,7 @@ function Zennchi() {
         <h1 className="judulpd-h1">Beberapa Jenis Makanan</h1>
         
         <div className="style">
-          <div className="card-makanan">
-            <img className="card-img" src={Img} alt="" />
-            <div className="card-text">
-              <h1 className="menu-judul">Judul</h1>
-              <p className="deskripsi-judul">Blablabla</p>
-            </div>
-          </div>
-          <div className="card-makanan">
-            <img className="card-img" src={Img} alt="" />
-            <div className="card-text">
-              <h1 className="menu-judul">Judul</h1>
-              <p className="deskripsi-judul">Blablabla</p>
-            </div>
-          </div>
+         
           <div className="card-makanan">
             <img className="card-img" src={Img} alt="" />
             <div className="card-text">
@@ -82,9 +69,7 @@ function Zennchi() {
                   <Link className="hub-btn" to={"/reserfasi"}>
                     Hubungi Kami
                   </Link>
-                  <a className="hub-btn" href="">
-                    Hubungi Kami
-                  </a>
+                
                   <div className="detail">
                     <h1 className="h1-detail1">Nasi lemak</h1>
                     <p className="h1-detail1">Nasilemak untuk awokawok</p>
@@ -97,7 +82,7 @@ function Zennchi() {
               <div className="kananfoto1">
                 <img className="promokanan" src={Promo} alt="" />
                 <div className="kanandeskripsi">
-                  <h1 className="h1-detail">Haloo</h1>
+                  <h1 className="h1-detail">Pecel Lele</h1>
                 </div>
                 <div className="desdeta">
                   <Link className="hub-btn" to={"/reserfasi"}>

@@ -25,7 +25,7 @@
 .imgg{
     width: 50%;
    
-    background-color: #1a1a1a;
+    /* background-color: #1a1a1a; */
     /* border-radius: 10px; */
 }
 .img-home2{
@@ -70,7 +70,7 @@
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: #ffff00;
+    background-color: #FFBA00;
   
 
     transition: 0.3s;

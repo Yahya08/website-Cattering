@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="navbar">
-      <h1><MdFastfood/> Kurnia Catering</h1>
+      <h1 className="navbarh1"><MdFastfood/> Kurnia Catering</h1>
       <nav>
         <Link to={"/"} >Beranda</Link>
         <Link to={"/menu"} >Menu</Link>
-        <Link to={"/reserfasi"} >Kontak</Link>
+        <Link to={"/reserfasi"}>Kontak</Link>
         <Link to={"/tentang"} >Tentang</Link>
 
 

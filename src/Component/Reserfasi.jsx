@@ -18,11 +18,10 @@ function Reserfasi() {
             <input type="text-login" placeholder="Last Name" required />
           </div>
           <input type="email" placeholder="Email" required />
-          <input className="phon" type="phon" placeholder="Number Phon" required />
-         
-          {/* <div className="trems">
-            <input type="checkbox" />I accept <a href="">Tems of Use</a>
-          </div> */}
+          <div className="name">
+            <input type="text-login" placeholder="Number Phon" required />
+            <input type="date" placeholder="Last Name" required />
+          </div>
           <button>Register</button>
         </form>
       <div className="login-kiri">

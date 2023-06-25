@@ -6,12 +6,13 @@
   display: grid;
   place-items: center;
   grid-template-columns: auto auto;
-  justify-content: end;
+  /* justify-content: end; */
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 9999;
-  background-color: #fffb00;
+  background: #323131;
+
 
   /* opacity: 0.5; */
   
@@ -19,25 +20,26 @@
 }
 
 .navbar h1{
+  /* margin-left: px; */
 	margin-right: 480px;
+  color: #FFB30E;
 	font-family: "Montserrat", sans-serif;
 }
 
 nav {
   position: relative;
-  margin-right: 20px;
+  margin-right: 10px;
   width: 100%;
   height: 30px;
-  background-color: #fffb00;
-
-  
+  background: #323131;
 
 }
+
 nav a {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   /* text-transform: uppercase; */
-  color: #000;
+  color: #FFB30E;
   text-decoration: none;
   line-height: 30px;
   position: relative;
@@ -53,7 +55,7 @@ nav .animation {
   top: 0;
   /* bottom: 0; */
   z-index: 0;
-  background: #ffffffd9;
+  background: #feefd0;
   border-radius: 8px;
   transition: all 0.7s ease 0s;
 }
