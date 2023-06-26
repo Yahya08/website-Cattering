@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 .navbar {
-  width: 100%;
+  max-width: 100%;
   height: 10vh;
   display: grid;
   place-items: center;
@@ -55,14 +55,14 @@ nav .animation {
   top: 0;
   /* bottom: 0; */
   z-index: 0;
-  background: #feefd0;
+  background: #000;
   border-radius: 8px;
   transition: all 0.7s ease 0s;
 }
 nav a:nth-child(1) {
   width: 100px;
 }
-nav .start-home,
+/* nav .start-home, */
 a:nth-child(1):hover ~ .animation {
   width: 100px;
   left: 0;
@@ -88,10 +88,5 @@ nav a:nth-child(4):hover ~ .animation {
   width: 100px;
   left: 300px;
 }
-/* nav a:nth-child(5){
-	width: 120px;
-}
-nav a:nth-child(5):hover~.animation{
-	width: 120px;
-	left: 470px;
-} */
+
+/*  */

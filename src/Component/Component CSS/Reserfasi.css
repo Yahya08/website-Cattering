@@ -19,10 +19,10 @@
   width: 35%;
   height: 67vh;
   background-color: #ffffff;
-  box-shadow: 3px 3px 10px 16px rgba(137, 137, 137, 0.133);
+  box-shadow: 3px 3px 10px 16px rgba(137, 137, 137, 0.298);
 
   flex-direction: column;
-  border-radius: 30px;
+  border-radius: 20px;
   display: flex;
   
   /* margin-top: 1rem; */
@@ -60,6 +60,7 @@
 
   width: 15px;
   height: 15px;
+  
 }
 
 .forn-container button {
@@ -107,7 +108,7 @@
 .loginlagi .login-kiri {
   margin-top: 3.4rem;
   border-radius: 15px;
-  box-shadow: 3px 3px 10px 8px rgba(137, 137, 137, 0.133);
+  box-shadow: 3px 3px 10px 8px rgba(137, 137, 137, 0.458);
 
   margin-left: 2rem;
   width: 60%;
@@ -148,20 +149,21 @@
   display: inline-block;
   margin-top: 20px;
   /* border: 1px solid #fff; */
-  margin-left: 6rem;
+  margin-left: 3rem;
   padding: 8px 20px;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   border-radius: 20px;
   font-weight: 500;
   letter-spacing: 1px;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: #ff7474;
+  background-color: #ffffff;
+
   transition: 0.3s;
 }
 .home1-txt a:hover{
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .login-kiri .home1-txt h2{
   color: #fff;

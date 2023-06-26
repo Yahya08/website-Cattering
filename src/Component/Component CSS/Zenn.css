@@ -171,13 +171,15 @@
     transition: 0.4s;
 }
 .judul-anim{
-    color: #000;
+    color: #ffffff;
+    margin-top: -8rem;
+    /* overflow: hidden; */
 }
 .deskripsipromo{
     position:relative;
     margin-left: 2rem;
   
-    transition: 0.5s;
+    transition: 0.9s;
     left: 20%;
     opacity: 0;
     /* background-color: */
@@ -186,7 +188,7 @@
 }
 
 .text-anim{
-    color: #000;
+    color: #ffffff;
 
 }
 .card-anim:hover .deskripsipromo{
@@ -280,11 +282,11 @@
     text-transform: uppercase;
 
 }
-@media (max-width:991px){
+/* @media (max-width:991px){
     .card-anim{
         width: auto;
         max-height: 350px ;
         align-items: flex-start;
     }
     
-}
+} */

@@ -1,14 +1,12 @@
-import "./Component CSS/Page1.css";
+// import "./Component CSS/Page1.css";
+import "../assets/assets CSS/Navbar.css"
 function Font() {
   return (
-    <div className="font">
-      <div className="sub-font">Kurnia</div>
-      <ul className="font-ul">
-        <li> <span>Catering</span></li>
-        {/* <li> <span>Catering</span></li> */}
+    <div className="heder">
+     
+        <a href="" className="nav-log">logo</a>
         
-
-      </ul>
+          
     </div>
   );
 }
